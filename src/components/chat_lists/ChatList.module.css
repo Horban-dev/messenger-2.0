@@ -1,11 +1,11 @@
 .chats {
-    background-color: white;
+    background-color: var(--white);
     border-top: 1px solid darkgrey;
     height: 100vh;
 }
 
 .chats_title {
-    color: rgb(49, 128, 196);
+    color: var(--title);
     font-style: oblique;
     font-size: 25px;
     text-align: center;

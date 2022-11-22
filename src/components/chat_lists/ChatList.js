@@ -1,7 +1,7 @@
 import React from 'react';
 import Persons from '../persons/Persons';
-import chatLi from './ChatList.module.css';
 import { chatsData } from '../../data';
+import chatLi from './ChatList.module.css';
 
 const ChatList = () => (
         <div className={chatLi.chats}>

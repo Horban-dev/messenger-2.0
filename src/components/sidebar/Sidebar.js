@@ -1,7 +1,7 @@
 import React from 'react';
-import sdbar from './Sidebar.module.css';
 import Navbar from '../navbar/Navbar';
 import ChatList from '../chat_lists/ChatList';
+import sdbar from './Sidebar.module.css';
 
 const Sidebar = () => (
         <div className={sdbar.sidebar}>
