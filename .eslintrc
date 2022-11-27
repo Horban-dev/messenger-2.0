@@ -1,0 +1,40 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb/base",
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime"
+    ],
+    "plugins": [
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        },
+        "babelOptions": {
+            "presets": [
+                "@babel/preset-react"
+            ]
+        },
+        "requireConfigFile": false
+    },
+    "rules": {
+        "max-len": [
+            "error",
+            100,
+            {
+                "ignoreUrls": true
+            }
+        ],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/prop-types": "off"
+    },
+    "parser": "@babel/eslint-parser"
+}
