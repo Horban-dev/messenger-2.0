@@ -1,0 +1,16 @@
+.navbar_img {
+    height: 35px;
+    width: 35px;
+    margin: 5px 0px 0px 5px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.navbar_panel {
+    border-radius: 15px;
+    border: 1px solid darkgrey;
+    height: 10px;
+    width: 260px;
+    padding: 10px;
+    margin: 0 10px 5px -3px;
+}

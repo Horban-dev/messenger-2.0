@@ -1,0 +1,38 @@
+.dialogs {
+    display: flex;
+    margin: 10px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.last_sms {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.chats_date {
+    margin-top: 0px;
+    font-style: italic;
+    font-size: 11px;
+    position: absolute;
+    right: 20px;
+}
+
+.divider {
+    max-width: 350px;
+    margin: 5px auto;
+    background-color: darkgrey;
+    border: 0.5px solid darkgrey;
+}

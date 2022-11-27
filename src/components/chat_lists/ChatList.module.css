@@ -1,0 +1,12 @@
+.chats {
+    background-color: var(--white);
+    border-top: 1px solid darkgrey;
+    height: 100vh;
+}
+
+.chats_title {
+    color: var(--title);
+    font-style: oblique;
+    font-size: 25px;
+    text-align: center;
+}
