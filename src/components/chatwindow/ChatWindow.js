@@ -4,15 +4,19 @@ import Input from '../input/Input';
 import chatWindow from './ChatWindow.module.css';
 
 function ChatWindow({
-  headerLogo, headerName, chatAvatar, messageInChat, myAnswer,
+  chat,
 }) {
+  const {
+    headerLogo, headerName, messages,
+  } = chat;
+
   return (
       <div className={chatWindow.chat}>
               <div className={chatWindow.chat_header}>
                   <img className={chatWindow.avatar} src={headerLogo} alt="avatar_alt" />
                   <span className={chatWindow.name}>{headerName}</span>
               </div>
-              <Messages chatAvatar={chatAvatar} messageInChat={messageInChat} myAnswer={myAnswer}/>
+              <Messages messages={messages}/>
               <Input />
           </div>
   );

@@ -3,7 +3,7 @@ import Persons from '../persons/Persons';
 import { chatsData } from '../../data';
 import chatLi from './ChatList.module.css';
 
-const ChatList = () => (
+const ChatList = ({ onChoseDialog }) => (
         <div className={chatLi.chats}>
             <h1 className={chatLi.chats_title}>Chats</h1>
             <div>
@@ -12,6 +12,8 @@ const ChatList = () => (
                         nick={item.nick}
                         text={item.text}
                         date={item.date}
+                        onChoseDialog={onChoseDialog}
+                        id={item.id}
                         key={item.id}
                     />)
             }

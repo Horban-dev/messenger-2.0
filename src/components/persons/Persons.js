@@ -2,9 +2,9 @@ import React from 'react';
 import pers from './Persons.module.css';
 
 const Persons = ({
-  pics, nick, text, date,
+  pics, nick, text, date, onChoseDialog, id,
 }) => (
-        <div>
+        <div onClick={() => onChoseDialog(id)} >
             <div className={pers.dialogs}>
                 <img className={pers.avatar} src={pics} alt="avatar" />
                 <div>
