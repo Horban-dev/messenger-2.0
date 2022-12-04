@@ -1,6 +1,8 @@
 .input_sms {
     background-color: rgb(239, 238, 238);
     height: 100vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 .input {
@@ -8,16 +10,7 @@
     border-radius: 15px;
     border: 1px solid grey;
     height: 10px;
-    width: 80vh;
+    width: 75vh;
     padding: 10px;
-    margin: 20px 10px 5px 10px;
-}
-
-.button {
-    transition-duration: 0.4s;
-}
-
-.button:hover {
-    background-color: grey;
-    color: white;
+    margin: 10px 10px 5px 10px;
 }

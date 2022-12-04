@@ -9,8 +9,8 @@
 .container {
     border: 1px solid white;
     border-radius: 10px;
-    width: 75%;
-    height: 80%;
+    width: 69%;
+    height: 75%;
     display: flex;
     overflow: hidden;
 }

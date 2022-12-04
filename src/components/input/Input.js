@@ -3,13 +3,13 @@ import input from './Input.module.css';
 
 function Input() {
   return (
-            <div className={input.input_sms}>
+          <div className={input.input_sms}>
             <input
                 className={input.input}
                 type="text"
                 placeholder='Сообщение...'
                 />
-            <button className={input.button}>Ok</button>
+
         </div>
   );
 }
