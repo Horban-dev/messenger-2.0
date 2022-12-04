@@ -1,0 +1,27 @@
+.input_sms {
+    background-color: var(--light-grey);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    background-color: var(--white);
+    border-radius: 15px;
+    border: 1px solid grey;
+    height: 10px;
+    width: 70vh;
+    padding: 10px;
+    margin: 10px 5px 5px 5px;
+}
+
+.button {
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 1px solid;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
