@@ -6,7 +6,7 @@ import Message from '../message/Message';
 import msgs from './Messages.module.css';
 
 const Messages = ({
-  messages,
+  messages, chatAvatar,
 }) => (
     <div className={msgs.messages}>
 
@@ -14,9 +14,10 @@ const Messages = ({
       messages.map((message) => (
           <>
           <Message
+          chatAvatar={chatAvatar}
             key={message.id}
             text={message.text}
-            isAnswer={message.authorId}
+            isMyAnswer={message.authorId}
             date={message.date}
             />
           </>

@@ -7,7 +7,7 @@ function ChatWindow({
   chat,
 }) {
   const {
-    headerLogo, headerName, messages,
+    headerLogo, headerName, messages, chatAvatar,
   } = chat;
 
   return (
@@ -16,7 +16,7 @@ function ChatWindow({
                   <img className={chatWindow.avatar} src={headerLogo} alt="avatar_alt" />
                   <span className={chatWindow.name}>{headerName}</span>
               </div>
-              <Messages messages={messages}/>
+              <Messages chatAvatar={chatAvatar} messages={messages}/>
               <Input />
           </div>
   );
